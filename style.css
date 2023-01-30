@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
+}
+body{
+  color: rgb(8, 8, 8);
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: url(back.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 15px;
+  padding-left: 2%;
+  padding-right: 8%;
+}
+nav{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a{
+  font-size: 40px;
+  text-decoration: none;
+}
+span{
+  color: #0066ff;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  transition: 0.5s;
+}
+nav ul li a:hover{
+  color: #0066ff;
+}
+.btn{
+  background: #000;
+  border-radius: 6px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.content{
+  margin-top: 10%;
+  max-width: 1000px;
+}
+.content h2{
+  font-size: 100px
+}
+.content p{
+  margin-top: 10px;
+  line-height: 25px;
+}
+a{
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+  padding-top: 15px;
+  padding-left: 100%;
+  padding-right: 8%;
+  
+}
+aa{
+  color: #0066ff;
+  font-size: 200%;
+}
+aaa{
+  color: #070707;
+  font-size: 200%;
+}
+.link {
+  margin-top: 30px;
+}
+.hire{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background: #0066ff;
+  padding: 9px 25px;
+  font-style: 100;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.link .hire:hover{
+  background: transparent;
+  border: 1px solid rgb(8, 8, 8);
+  color: rgb(7, 7, 7);
+}
